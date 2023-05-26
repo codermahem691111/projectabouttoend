@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Orbitron&family=Righteous&family=Shantell+Sans:wght@300&display=swap');
+
+
+
+
+h1  {
+
+    font-family: 'Abril Fatface', cursive;
+    width: 100%; 
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+}
+
+
+
+
+
+#rowblog1 {
+
+  margin-top:70px;
+  width:100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;  
+  overflow-x: hidden;
+
+
+
+
+}
+
+
+
+#cardblogno1 {
+   height: 360px;
+   width: 200px;
+
+   
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+ 
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: center;
+  padding-right: 0px;
+  
+
+}
+
+
+#cardblogno2 {
+  height: 360px;
+  width: 200px;
+
+  
+ border-radius: 10px;
+ margin-bottom: 20px;
+ 
+
+ display: flex;
+ flex-direction: column;  
+ align-items: center;
+ justify-content: center;
+
+
+}
+
+
+
+#cartoonblog1 {
+   
+   width: 150px;
+   height: 300px;
+   margin-left: 20px;
+   margin-bottom: 0;
+   
+
+}
+
+p {
+  font-size: 17px;
+  margin-left: 25px;
+  font-family: 'Abril Fatface', cursive;
+
+
+
+}
+
+
+
+
+#btn1 {
+  background-color:blue;
+  padding:10px;
+  border-radius: 20px;
+  margin-top:10px;
+  text-align: center;
+ color: white;
+ margin-bottom: 36px;
+
+
+}
+
+
+
+
+
+@media screen  and (min-width : 375px) and (max-width:640px) {
+
+ #rowblog1  {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  width:100%;
+  overflow-x:hidden;
+  overflow-y: hidden;
+  overflow-wrap: normal;  
+  margin-left: 0;
+
+ }
+   
+ 
+  
+
+  #cartoonblog1 {
+   height: 160px;
+   width: 100px;
+
+}
+
+
+   #cardblogno1 {
+
+     margin-top: 30px;
+ 
+
+
+   }
+
+   #cardblogno2
+      {    
+         margin-top:30px;
+      
+         
+      
+
+      }
+
+
+   p {
+
+       font-size: 12px;
+       
+
+
+   }    
+
+
+ #btn1 {
+   margin-bottom: 10px;
+
+
+
+
+ }
+
+
+}

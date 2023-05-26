@@ -1,0 +1,57 @@
+#brit {
+
+    height: 400px;
+    width: 300px;
+    margin-left:30px;
+    border-radius: 50px;
+  
+  
+  
+  
+  }
+  
+  #conths {
+  
+     display:flex;
+     flex-direction:  row;
+     justify-content: center;
+     align-items: center;
+     
+     width: 100%; 
+     overflow-x: hidden;  
+  
+  
+  
+  }
+  
+  p {
+  
+     margin-right: 30px;
+  
+  
+  
+  }
+  
+  @media screen  and (min-width : 375px) and (max-width:640px) {
+  
+     #conths {
+  
+  
+       display:flex;
+       flex-direction: column;
+       width:100%;
+       overflow-x: hidden;  
+  
+     }
+  
+    #histr {
+  
+     margin-top: 30px;
+  
+  
+  
+    }
+  
+  }
+  
+  

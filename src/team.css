@@ -1,0 +1,48 @@
+#team {
+   
+    height:70vh;
+    width:100%;
+    overflow-x: hidden;
+    background-image:linear-gradient(to bottom left,rgba(17,16,16,0.678),rgba(12,10,22,0.863)), url(./images//blog-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+ 
+ }
+ 
+ p {
+ 
+   font-size:20px;
+ 
+ 
+ 
+ }
+ 
+ @media screen  and (min-width : 375px) and (max-width:640px)  {
+   p {
+ 
+ 
+     font-size:16px;
+ 
+ 
+   }
+   #team {
+    width: 100%;
+    overflow-x: hidden;
+
+
+
+
+   }   
+ 
+ 
+ 
+ }
+ 
+ 
+ 
+ 

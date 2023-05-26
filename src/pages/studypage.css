@@ -1,0 +1,41 @@
+.quicklinkcontainerstudy {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden; 
+  
+  
+  
+  }
+  
+  
+  .quicklinksstudy {
+  
+  
+     height: 400px;
+     width: 600px;
+     background-color:#0284c7 ;
+     border-radius: 50px;
+  
+  
+  
+  }
+  
+  
+@media screen  and (min-width : 375px) and (max-width:640px) {
+
+     
+    .quicklinksstudy {
+
+        width: 370px;
+       overflow-x: hidden;
+       overflow-y: hidden; 
+      
+       }
+       
+
+
+
+  }
